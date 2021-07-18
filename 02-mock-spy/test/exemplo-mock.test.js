@@ -46,9 +46,14 @@ test('Teste 02 - Mock Timer', (done) => {
   expect(mockCallback).toHaveBeenCalledTimes(1);
 });
 
-test('Teste 93 - Subtrair dois números', () => {
+test('Teste 03 - Subtrair dois números', () => {
   const diferenca = exemploMock.subtrair(4, 1);
   expect(diferenca).toBe(3);
+});
+
+test('Teste 04 - Somar dois números', () => {
+  const soma = exemploMock.somar(2, 3);
+  expect(soma).toBe(5);
 });
 
 afterEach(() => {

@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 node_modules/
+=======
+01-calcula/node_modules/
+02-mock-spy/node_modules/
+03-consulta-credito/node_modules/
+>>>>>>> develop
